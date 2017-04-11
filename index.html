@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luxury</title>
+    <!-- Links of google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,100,100italic,300,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!--importing CSS styles-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+<section id="hero-banner">
+  <div class="hero-container">
+    <nav class="navbar navbar-default hero-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+            data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+             <a class="navbar-brand hero-logo" href="#">
+               <img src="images/logo.png" alt=""/>
+             </a>
+          </div>
+          <div id="mainNav" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right hero_navitem">
+              <li class="pad3"><a href="#">HOME</a></li>
+              <li class="pad3"><a href="#">MENU</a></li>
+              <li class="pad3"><a href="#">RESERVATION</a></li>
+              <li class="pad3"><a href="#">RECIPE</a></li>
+              <li class="pad3"><a href="#">BLOG</a></li>
+              <li class="pad3"><a href="#">PAGES</a></li>
+              <li class="pad3"><a href="#">CONTACT</a></li>
+              <li class="dropdown pad3">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <span class="hero-cart">
+                    <img src="images/cart.png" alt=""/>
+                  </span>
+                  <span class="hero-cart_num">
+                    3
+                  </span>
+                  <span class="caret hero-drop"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">My Cart</a></li>
+                  <li><a href="#">Shopping History</a></li>
+                  <li><a href="#">Payment Details</a></li>
+                </ul>
+              </li>
+              <!-- <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li> -->
+              <li><a href="#">
+                <button type="button" name="button" class="hero-book_bttn">
+                  <span><img src="images/dish.png" alt=""/></span><span class="ml1">BOOK YOUR TABLE</span>
+                </button>
+              </a></li>
+
+            </ul>
+
+          </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="foodBanner">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators food-carousel">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active banner-img">
+          <img src="images/foods.jpg" alt="food">
+          <div class="carousel-caption food-thumb">
+            <span>Taste your fav dish</span><br>
+            <span>from <span class="food-color">luxury restaurent.</span></span>
+          </div>
+        </div>
+        <div class="item banner-img">
+          <img src="images/res.jpg" alt="res">
+          <div class="carousel-caption food-thumb">
+            <span>Dine an unique experience</span><br>
+            <span>in <span class="food-color">luxury restaurent.</span></span>
+          </div>
+        </div>
+        <div class="item banner-img">
+          <img src="images/jap.jpg" alt="sushi">
+          <div class="carousel-caption food-thumb">
+            <span>Explore Continental foods</span><br>
+            <span>of <span class="food-color">luxury restaurent.</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control food-arrow" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control food-arrow" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="reservationArea" class="reserve-bg">
+  <div class="container">
+    <div class="reserve-call">
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="reserve-img">
+                    <span class="reserve-img_positon"><img src="images/call.png" alt=""></span>
+                    <span class="reserve-img_text">Explore<br>
+                    food Menu</span>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="dib read-img"><img src="images/bubble.png" alt=""></div>
+                  <div class="dib read-review">READ <br>
+                  <p class="food-color">REVIEWS</p></div>
+                  <div class="dib"><button type="button" name="button" class="read-bttn"><img src="images/arrow.png" alt=""></button></div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="phone-call dib">
+                        <img src="images/phone.png" alt="">
+                    </div>
+                    <div class="read-review dib ml1">
+                      <p class="">CALL US NOW FOR</p>
+                      <p class="food-color">HOME DELIVERY</p>
+                    </div>
+                    <div class="dib ml3 call-num">
+                        1-008 005 006
+                    </div>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="about" class="mtb">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+            <h3 class="lux-font mb3">About Restaurant</h3>
+            <p class="lux-font mb3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged... </p>
+            <button type="button" class="btn btn-default hero-book_bttn dib lux-font mb3">READ MORE</button>
+            <img src="images/small.jpg" class="dib mb3 ml3" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-6 mt3">
+                    <div class="resimg-1 mb1">
+                      <img src="images/one.jpg" alt="">
+                    </div>
+                    <div class="resimg-2 mb1">
+                      <img src="images/two.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="resimg-3 mb1">
+                      <img src="images/three.jpg" alt="">
+                    </div>
+                    <div class="resimg-4 mb1">
+                      <img src="images/four.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="special" class="mb3">
+  <div class="pos-rel">
+    <img src="images/sub.jpg" class="mid-food_banner" alt="">
+    <h3 class="pos-abs lux-font white menu-position txt-cenh3">Today Special</h3>
+
+    <div class="">
+      <div class="food-banner">
+        <div id="carousel-example-generic" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators second-carousel">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner second-carousel_inner" role="listbox">
+            <div class="item active">
+              <div class="row">
+                <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="row">
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/pizza.jpg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Pizaa</h4>
+                                    <p class="lux-font font14 mb3">
+                                      Pizza is a yeasted flatbread generally topped with tomato sauce and cheese and baked in an oven. It is commonly topped with a selection of meats, vegetables and condiments.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>89.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/burger.jpg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Burger</h4>
+                                    <p class="lux-font font14 mb3">
+                                      A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty, but the burger can include many variations in structure, ingredients, and composition.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>90.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-2"></div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="row">
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/doner.jpg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Doner Kebab</h4>
+                                    <p class="lux-font font14 mb3">
+                                      Döner kebab is a type of Turkish kebab, made of meat cooked on a vertical rotisserie. Similar dishes cooked on a vertical rotisserie are the Arab shawarma, Greek gyros, and Mexican Al pastor.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>91.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/tiramisu.jpg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Tiramisu</h4>
+                                    <p class="lux-font font14 mb3">
+                                      Tiramisu is a popular coffee-flavoured Italian custard dessert. It is made of ladyfingers dipped in coffee, layered with a whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>92.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-2"></div>
+              </div>
+
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-2"></div>
+                  <div class="col-lg-8">
+                    <div class="row">
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/baklava.jpg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Baklava</h4>
+                                    <p class="lux-font font14 mb3">
+                                      Baklava is a rich, sweet pastry made of layers of filo filled with chopped nuts and sweetened and held together with syrup or honey.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>93.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="food-box">
+                                <div class="food-img">
+                                    <img src="images/pasta.jpeg" alt="">
+                                </div>
+                                <div class="pad1">
+                                  <div class="txt-center mb3 mt3 borbot">
+                                    <h4 class="food-name lux-font font25">Pasta</h4>
+                                    <p class="lux-font font14 mb3">
+                                      Pasta is a staple food of traditional Italian cuisine, with the first reference dating to 1154 in Sicily. Also commonly used to refer to the variety of pasta dishes.
+                                    </p>
+                                  </div>
+
+                                  <div class="mb3">
+                                    <div class="dib lux-font font14 font-bold lux-hd vmid padr1 borright">
+                                        <p>HOME</p>
+                                        <p class="card-pink">DELIVERY</p>
+                                    </div>
+                                    <div class="dib ml3 call-card">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dib yellow font-bold font25 flr">
+                                        <sup>$</sup>94.00
+                                    </div>
+                                  </div>
+
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-2"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control food-arrow" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control food-arrow" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<section>
+  <div class="container">
+    <div class="crop-image">
+        <img src="images/p.jpg" alt="">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="row">
+      <div class="col-lg-1">
+        <div class="left-img"><img src="images/bun.jpg" alt=""></div>
+      </div>
+      <div class="col-lg-10">
+        <div class="food-menu">
+            Food Menu
+        </div>
+        <div>
+
+  <!-- Nav tabs -->
+  <div class="txt-center">
+  <ul class="nav nav-tabs txt-center food-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">
+          <div><img src="images/all.png" alt=""></div>
+          <div>All</div>
+    </a></li>
+    <li role="presentation"><a href="#breakfast" aria-controls="breakfast" role="tab" data-toggle="tab">
+      <div><img src="images/breakfast.png" alt=""></div>
+      <div>Breakfast</div>
+    </a></li>
+    <li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">
+      <div><img src="images/lunch.png" alt=""></div>
+      <div>Lunch</div>
+    </a></li>
+    <li role="presentation"><a href="#snacks" aria-controls="snacks" role="tab" data-toggle="tab">
+      <div><img src="images/snacks.png" alt=""></div>
+      <div>Snacks</div>
+    </a></li>
+    <li role="presentation"><a href="#piazza" aria-controls="piazza" role="tab" data-toggle="tab">
+      <div><img src="images/piazza.png" alt=""></div>
+      <div>Pizza</div>
+    </a></li>
+    <li role="presentation"><a href="#soup" aria-controls="soup" role="tab" data-toggle="tab">
+      <div><img src="images/soup.png" alt=""></div>
+      <div>Soups</div>
+    </a></li>
+    <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">
+      <div><img src="images/dinner.png" alt=""></div>
+      <div>Dinner</div>
+    </a></li>
+  </ul>
+</div>
+
+  <!-- Tab panes -->
+  <div class="tab-content pad3rem">
+    <div role="tabpanel" class="tab-pane active" id="all">
+          <div class="row">
+              <div class="col-lg-5">
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="col-lg-2"></div>
+              <div class="col-lg-5">
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row borbot mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+                <div class="row mtop2">
+                      <div class="col-lg-9">
+                          <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                          <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                      </div>
+                      <div class="col-lg-3">
+                        <div class="dib yellow font-bold font25 flr">
+                            <sup>$</sup>50.00
+                        </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="breakfast">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="lunch">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="snacks">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="piazza">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="soup">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="dinner">
+      <div class="row">
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5">
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row borbot mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+            <div class="row mtop2">
+                  <div class="col-lg-9">
+                      <p class="food-tabs_bold">Ultimate organic fruit salad</p>
+                      <p class="food-tabs_grey">survived not only five centuries but the leap</p>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="dib yellow font-bold font25 flr">
+                        <sup>$</sup>50.00
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+      </div>
+      <div class="col-lg-1"></div>
+  </div>
+  <div class="container">
+    <div class="txt-center">
+      <button type="button" class="btn btn-default hero-book_bttn dib lux-font mb3">EXPLORE FOOD MENU</button>
+    </div>
+    <div class="flr mtm mbm">
+      <img src="images/cw.jpeg" alt="chicken_wrap">
+    </div>
+  </div>
+
+</section>
+
+<section id="testimonalBanner">
+  <div class="pinkbg">
+    <div class="client-testimonial">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+          <div class="item">
+            <img src="..." alt="...">
+            <div class="carousel-caption">
+              ...
+            </div>
+          </div>
+          ...
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/index.js"></script>
+
+  </body>
+  
+</html>
