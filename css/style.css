@@ -339,6 +339,30 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.client-menu{
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.third-carousel{
+  display: none;
+}
+.third-carousel_control.right{
+  background-image: none;
+}
+.third-carousel_control.left{
+  background-image: none;
+}
+.client-say{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
 
 
 
