@@ -402,11 +402,12 @@ body {
   border-bottom: 1px solid #ccc;
   border-radius: 0;
   box-shadow: none;
+  background-color: #edf1f3;
 }
 .sb .input-group-addon{
   padding: 0;
   vertical-align: bottom;
-  background-color: #fff;
+  background-color: #edf1f3;
   border: none;
   border-bottom: 1px solid #ccc;
   border-radius: 0;
@@ -466,6 +467,46 @@ body {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+.reserve-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fe4c8d;
+}
+.reserve-text_white{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.hero-reserve_bttn{
+  height: 40px;
+  background-color: #fea100;
+  color: #fff;
+  border-radius: 5px;
+}
+.hero-reserve_bttn:hover{
+  background-color: #fea100;
+  color: #fff;
+}
+.reserve-number{
+  padding-left: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  border-left: 2px solid grey;
+}
+.reservation{
+  padding-bottom: 3rem;
+  background-color: #edf1f3;
+}
+.footer-bg{
+  color: #fff;
+  background-color: #373844;
+}
+
+
 
 
 
