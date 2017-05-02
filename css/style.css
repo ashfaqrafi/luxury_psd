@@ -32,6 +32,9 @@ body {
 .font-bold{
   font-weight: bold;
 }
+.mtop1{
+  margin-top: 1rem;
+}
 .mtb{
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -59,6 +62,18 @@ body {
 }
 .wid40{
   width: 40%;
+}
+.borrad{
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+.borleftrad{
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+.marpadzero{
+  padding: 0;
+  margin: 0;
 }
 .vmid{
   vertical-align: middle;
@@ -91,6 +106,9 @@ body {
 }
 .pad1{
   padding: 1rem;
+}
+.pad2{
+  padding: 2rem;
 }
 .ml1{
   margin-left: 1rem
@@ -286,6 +304,9 @@ body {
   margin-top: 5rem;
   padding-bottom: 3rem;
 }
+.mtop5{
+  margin-top: 5rem;
+}
 .crop-image{
   margin-bottom: 3rem;
   margin-top: 11rem;
@@ -394,22 +415,31 @@ body {
   text-align: center;
   color: #000;
 }
+.fin_sb{
+  border: 1px solid #52535e;
+  border-radius: 5px;
+}
+.fin_border{
+  border-bottom: 1px solid #c7d1d6;
+}
+.bg-none{
+  background: none;
+  border: none;
+}
 .sb_inputgroup .sb_formctrl{
   padding-left: 0;
   font-size: 1.6rem;
   color: #757575;
   border: none;
-  border-bottom: 1px solid #ccc;
   border-radius: 0;
   box-shadow: none;
-  background-color: #edf1f3;
+  background-color: transparent;
 }
 .sb .input-group-addon{
   padding: 0;
   vertical-align: bottom;
-  background-color: #edf1f3;
+  background-color: transparent;
   border: none;
-  border-bottom: 1px solid #ccc;
   border-radius: 0;
 }
 .sb .sb_searchicon{
@@ -499,13 +529,80 @@ body {
 }
 .reservation{
   padding-bottom: 3rem;
+  padding-top: 3rem;
   background-color: #edf1f3;
 }
 .footer-bg{
+  padding-bottom: 3rem;
+  padding-top: 3rem;
   color: #fff;
   background-color: #373844;
 }
+.sitemap ol li > a{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  color: #adb2b7;
+}
+.sitemap ol li > a:hover{
+  color: #adb2b7;
+  text-decoration: none;
+}
+.sitemap ol{
+  list-style-type: none;
+  padding-left: 0;
+}
+.luxury-navig{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.luxury-email{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  color: #adb2b7;
+}
+.foot-flex{
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row ;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.foot{
+  flex: 1 auto;
+}
+.foot-line{
+  position: relative;
+}
+.foot-line:after{
+  position: absolute;
+  display: block;
+  bottom: 0;
+  top: 14px;
+  width: 100%;
+  height: 2px;
+  transform: scaleY(-1);
+  background-color: #52535e;
+  content: "";
+}
+.copy-txt{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
 
+
+
+
+
+/*hacks*/
+.vmid{
+  vertical-align: middle !important;
+}
+.mr1{
+  margin-right: 1rem;
+}
+/*hacks*/
 
 
 
